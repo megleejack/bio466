@@ -1,37 +1,91 @@
-Last login: Thu Dec  5 10:02:55 on console
-
-The default interactive shell is now zsh.
-To update your account to use zsh, please run `chsh -s /bin/zsh`.
-For more details, please visit https://support.apple.com/kb/HT208050.
-(base) Megs-MacBook-Air:~ meganjackson$ ssh -X jacks118@bio466-f15.csi.miamioh.edu
-jacks118@bio466-f15.csi.miamioh.edu's password: 
-Welcome to Bio-Linux on BIO466-F15 (based on Ubuntu 16.04.6 LTS)
-
- * More info at:  http://nebc.nerc.ac.uk/tools/bio-linux
-
- * Overheard at KubeCon: "microk8s.status just blew my mind".
-
-     https://microk8s.io/docs/commands#microk8s.status
-
-12 packages can be updated.
-0 updates are security updates.
-
-New release '18.04.3 LTS' available.
-Run 'do-release-upgrade' to upgrade to it.
-
-*** System restart required ***
-Last login: Thu Dec  5 00:11:45 2019 from 172.24.93.117
-jacks118@BIO466-F15:~$ ls
-assignment01_dir        lefse_biomarkers_throat_AN_buccalMucosa.png  tutorials
-Desktop                 old                                          week11
-lefse_biomarkers_4.png  public_html
-jacks118@BIO466-F15:~$ cd public_html/
-jacks118@BIO466-F15:~/public_html$ ls
-cgi.db.1.py  index.html
-jacks118@BIO466-F15:~/public_html$ cd in
--bash: cd: in: No such file or directory
-jacks118@BIO466-F15:~/public_html$ vi index.html 
-
+<HTML>
+        <HEAD>
+                <TITLE>
+                       Gene Annotation Comparison
+                </TITLE> <link rel="stylesheet" type="text/css" href="ssr.css"/>
+                        <style>
+                                        H1{
+                                               background-color: blue;
+                                        }
+                                TITLE {
+                                    display: block;
+                                    font-size: 2em;
+                                    margin-block-start: 0.67em;
+                                    margin-block-end: 0.67em;
+                                    margin-inline-start: 0px;
+                                    margin-inline-end: 0px;
+                                    font-weight: bold;
+                                    text-align: center;
+                                }
+                        </style>
+        </HEAD>
+        <BODY>
+                <H1>
+                        <p><center> GENE ANNOTATION</center> </p>
+                </H1>
+                        <H2><p> <center>Authors: Megan Jackson and Rajaan Suggs</center> </p></H2>
+                                <style>
+                                H2{
+                                        font-style: oblique;
+                                }
+                                </style>
+                <p><b>Objective</b><p>
+        <p><br>            <H3>
+                         <form action="cgi.db.1.py" method="GET">
+Gene Name: <input type="text" name="GeneName"/>
+<input type="submit" name ="submit" value="Submit"/>
+</form>
+                </H3>
+        <p><b>Summary</p></b>
+<p>
+<li>There are 43 categories in Mus_musculus.GRCm38.82.chr.gtf
+<ul>TEC</ul>
+<ul>snRNA</ul>
+<ul>protein_coding</ul>
+<ul>processed_pseudogene</ul>
+<ul>antisense</ul>
+<ul>sense_intronic</ul>
+<ul>lincRNA</ul>
+<ul>processed_transcript</ul>
+<ul>miRNA</ul>
+<ul>snoRNA</ul>
+<ul>misc_RNA</ul>
+<ul>unprocessed_pseudogene</ul>
+<ul>transcribed_unprocessed_pseudogene</ul>
+<ul>sense_overlapping</ul>
+<ul>rRNA</ul>
+<ul>transcribed_processed_pseudogene</ul>
+<ul>pseudogene</ul>
+<ul>ribozyme</ul>
+<ul>unitary_pseudogene</ul>
+<ul>scaRNA</ul>
+<ul>polymorphic_pseudogene</ul>
+<ul>macro_lncRNA</ul>
+<ul>bidirectional_promoter_lncrna</ul>
+<ul>3prime_overlapping_ncrna</ul>
+<ul>TR_V_gene</ul>
+<ul>TR_V_pseudogene</ul>
+<ul>TR_D_gene</ul>
+<ul>TR_J_gene</ul>
+<ul>TR_C_gene</ul>
+<ul>TR_J_pseudogene</ul>
+<ul>IG_LV_gene</ul>
+<ul>transcribed_unitary_pseudogene</ul>
+<ul>IG_V_gene</ul>
+<ul>IG_V_pseudogene</ul>
+<ul>IG_J_gene</ul>
+<ul>IG_C_gene</ul>
+<ul>sRNA</ul>
+<ul>translated_unprocessed_pseudogene</ul>
+<ul>IG_C_pseudogene</ul>
+<ul>IG_D_gene</ul>
+<ul>IG_D_pseudogene</ul>
+<ul>Mt_tRNA</ul>
+<ul>Mt_rRNA</ul>
+<ul>Number of transcripts annotated 111706</ul>
+</li>
+<li>There are 38 categories in Mus_musculus.GRCm38.98.chr.gtf
+<ul>TEC</ul>
 <ul>snRNA</ul>
 <ul>protein_coding</ul>
 <ul>processed_pseudogene</ul>
@@ -71,6 +125,7 @@ jacks118@BIO466-F15:~/public_html$ vi index.html
 <ul>Mt_rRNA</ul></li>
 Number of transcripts annotated 142351
 <p>
+<p>
         <table style="width:100%">
                 <tr>
                         <th>Total Genes</th>
@@ -84,4 +139,3 @@ Number of transcripts annotated 142351
                         <th>Minimum number of different transcripts</th>
                 </tr>
 </HTML>
-
