@@ -1,0 +1,43 @@
+        <option>TEC</option>
+        <option>snRNA</option>
+        <option>protein_coding</option>
+        <option>processed_pseudogene</option>
+        <option>antisense</option>
+        <option>sense_intronic</option>
+        <option>lincRNA</option>
+        <option>processed_transcript</option>
+        <option>miRNA</option>
+        <option>snoRNA</option>
+        <option>miscRNA</option>
+        <option>unprocessed_pseudogene</option>
+        <option>transcribed_unprocessed_pseudogene</option>
+        <option>pseudogene</option>
+        <option>ribozyme</option>
+        <option>unitary_pseudogene</option>
+        <option>scaRNA</option>
+        <option>polymorphic_pseudogene</option>
+        <option>macro_lncRNA</option>
+        <option>bidirectional_promoter_lncrna</option>
+        <option>3prime_overlapping_ncrna</option>
+        <option>TR_V_gene</option>
+        <option>TR_V_pseudogene</option>
+        <option>TR_D_gene</option>
+        <option>TR_J_gene</option>
+        <option>TR_C_gene</option>
+        <option>TR_J_pseudogene</option>
+        <option>IG_LV_gene</option>
+        <option>transcribed_unitary_pseudogene</option>
+        <option>IG_V_gene</option>
+        <option>IG_V_pseudogene</option>
+        <option>IG_J_gene</option>
+        <option>IG_C_gene</option>
+        <option>sRNA</option>
+        <option>translated_unprocessed_pseudogene</option>
+        <option>IG_C_pseudogene</option>
+        <option>IG_D_gene</option>
+        <option>IG_D_pseudogene</option>
+        <option>Mt_tRNA</option>
+        <option>Mt_rRNA</option>
+        
+<ul>Number of transcripts annotated 111706</ul>
+</li>
