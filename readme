@@ -1,0 +1,31 @@
+1. Download 2 files from the ENSEMBL website
+2. Unzip the files and import into PyCharm
+3. Create a new Pycharm file and import re
+4. Create a class called "GeneAnnotationComparison"
+5. Create a "__init__" function with the file name as the parameter, then list the constructors
+6. Create a "extract" function that will open and read through the files
+7. Create a "getCategories" function
+8. Create a "getCount" function
+9. Create a "getAssociations" function
+10. Create a "getGeneNames" function
+11. Create a "numberOfTranscripts" function
+12. Create a "createTranscriptTabDelimitedInput" function
+13. Create a "createGeneTabDelimitedInput" function
+14. Create a "findMax" function
+15. Create the main function to call the class and the associated functions
+16. Call the if __name__ == "__main__":
+17. Go to http://bio466-f15.csi.miamioh.edu/phpmyadmin/ and create two 4 tables, one for each of the Gene files and two for the transcripts
+18. In the terminal, import the output files from PyCharm into the SQL database using sqlimport
+19. Create another PyCharm file to use as the common gateway interface (CGI)
+20. In this file, import pymysql, cgi, and cgitb
+21. Create instance of FieldStorage
+22. Connect to the database using your username and password under a local host
+23. Create a Cursor object to execute queries
+24. Select data from table using SQL query
+25. Start the web page
+26. Print the results into columns to a table
+27. Format the table
+28. Close the database
+29. Create a web interface utilizing the class server under an executable public_html directory
+30. Use HTML language to create the desired look and layout of the website
+31.
